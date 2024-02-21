@@ -64,11 +64,11 @@ const Apart1 = () => {
 
         <div className='flex md:flex-row flex-col  mt-10'>
           <div className='md:mr-10 mr-0 md:mb-0 mb-10'>
-            <img className='border-solid border-2 border-black rounded-[12px]' src={cama1} alt="" />
+            <img className='border-solid border-2 border-black rounded-[12px]' src={cama1} alt="foto de una cama doble del apart 1" />
           </div>
 
           <div className=''>
-            <img className='border-solid border-2 border-black rounded-[12px]' src={camasofa} alt="" />
+            <img className='border-solid border-2 border-black rounded-[12px]' src={camasofa} alt="foto de una cama sofa del apart 1" />
           </div>
 
         </div>

@@ -63,11 +63,11 @@ const Apart3 = () => {
 
         <div className='flex md:flex-row flex-col  mt-10'>
           <div className='md:mr-10 mr-0 md:mb-0 mb-10'>
-            <img className='border-solid border-2 border-black rounded-[12px]' src={camas1} alt="" />
+            <img className='border-solid border-2 border-black rounded-[12px]' src={camas1} alt="foto de dos camas dobles del apart 3" />
           </div>
 
           <div className=''>
-            <img className='border-solid border-2 border-black rounded-[12px]' src={camasinvertidasluz} alt="" />
+            <img className='border-solid border-2 border-black rounded-[12px]' src={camasinvertidasluz} alt="foto de dos camas dobles del apart 3 " />
           </div>
 
         </div>
