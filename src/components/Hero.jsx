@@ -24,7 +24,7 @@ const Hero = () => (
 
         <div className='flex md:flex-row flex-col items-center gap-5 pt-10 w-[80%]'>
           <div className='flex flex-col items-center'>
-            <h3 className={`${styles.paragraph} mt-5`} >En Terra Maria Apart contamos con 4 aparts para que alojarte en la ciudad de salta, cada uno tiene sus propias caracteristicas.</h3>
+            <h3 className={`${styles.paragraph} mt-5`} >Descubre nuestros 4 aparts en Terra María, ubicados en el corazón de Salta para tu comodidad. Cada uno con características únicas. ¡Tu escapada perfecta comienza aquí!</h3>
             <div className='flex md:flex-row flex-wrap justify-center gap-20 mt-10'>
 
               {/* icono casa */}
@@ -80,7 +80,7 @@ const Hero = () => (
           </div>
 
           <div className='logoHero'>
-              <img className='md:h-[200px] h-[130px] md:w-[250px] w-[130px] ssxs:mt-10 mt-0 ssxs:mr-2 mr-0' src={logoHeroSolo} alt="logoTerraMaria" />
+              <img className='md:h-[200px] h-[130px] md:w-[350px] w-[130px] ssxs:mt-10 mt-0 ssxs:mr-2 mr-0' src={logoHeroSolo} alt="logoTerraMaria" />
           </div>
 
         </div>
