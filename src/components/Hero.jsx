@@ -80,7 +80,7 @@ const Hero = () => (
           </div>
 
           <div className='logoHero'>
-              <img className='h-[200px] w-[250px]' src={logoHeroSolo} alt="logoTerraMaria" />
+              <img className='md:h-[200px] h-[200px] md:w-[250px] w-[200px] ssxs:mt-10 mt-0' src={logoHeroSolo} alt="logoTerraMaria" />
           </div>
 
         </div>
