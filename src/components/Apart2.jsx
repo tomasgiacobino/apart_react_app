@@ -57,8 +57,10 @@ const Apart2 = () => {
       </h2>
 
 
-      <h4 className={`${styles.paragraph} mt-5`}>Este apartment esta pensado para 3 huespedes, en el que podes encontrar 1 dormitorio, 2 camas, 1 baño. Ademas incluye servicios
-      como Wifi, Aire acondicionado, TV, Secador de pelo. Este Apart incluye estacionamiento pago en las instalaciones.</h4>
+      <h4 className={`${styles.paragraph} mt-5`}>Este apartamento está diseñado para alojar cómodamente
+       a tres huéspedes, con un dormitorio que cuenta con dos camas individuales y un baño. Además,
+      ofrece servicios como wifi, aire acondicionado, 
+      televisor y secador de pelo. Este apartamento también incluye estacionamiento pago en las instalaciones.</h4>
 
 
       <div className='flex md:flex-row flex-col  mt-10'>
