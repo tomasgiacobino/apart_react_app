@@ -86,6 +86,8 @@ const Apart2 = () => {
 
         <Modal title={title} photos={photos} isOpen={modalOpen} onClose={toggleModal} />
 
+        {/* BOTONES WEB */}
+
         <div id='btns' className={`${modalOpen ? 'md:hidden xs:hidden ssxs:hidden' : 'xs:hidden md:block ssxs:hidden '} w-full`}>
 
           <div className='flex flex-row w-full justify-around font-poppins'>
@@ -117,6 +119,8 @@ const Apart2 = () => {
             </a>
           </div>
         </div>
+
+        {/* BOTONES CUANDO NO ES WEB */}
 
         <div className='md:hidden block'>
 
