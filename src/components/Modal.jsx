@@ -6,7 +6,7 @@ import "react-image-gallery/styles/css/image-gallery.css"
 
 
 
-const Modal = ({ isOpen, onClose, photos, title }) => {
+const Modal = ({ isOpen, onClose, photosModal, titleModal }) => {
 
 
     useEffect(() => {
@@ -31,10 +31,10 @@ const Modal = ({ isOpen, onClose, photos, title }) => {
                     <div className="overlay"></div>
                     <div className="modal-content">
                         <div className="text-white font-poppins text-[40px] pb-5">
-                            {title}
+                            {titleModal}
                         </div>
                         <div className="galleryImages">
-                            <ImageGallery items={photos} />
+                            <ImageGallery items={photosModal} />
                         </div>
                         <button
                             className="close-modal text-white bg-verMas-gradient border-solid border-2 rounded-[12px]"
