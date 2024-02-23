@@ -1,5 +1,6 @@
 import styles from '../style';
 import {logoHeroSolo} from '../assets';
+import { Zoom } from 'react-awesome-reveal';
 
 
 const Hero = () => (
@@ -24,7 +25,12 @@ const Hero = () => (
 
         <div className='flex md:flex-row flex-col items-center gap-5 pt-10 w-[80%]'>
           <div className='flex flex-col items-center'>
-            <h3 className={`${styles.paragraph} mt-5`} >Descubre nuestros 4 aparts en Terra María, ubicados en el corazón de Salta para tu comodidad. Cada uno con características únicas. ¡Tu escapada perfecta comienza aquí!</h3>
+            <h3
+            className={`${styles.paragraph} mt-5`}>
+              <Zoom>
+                  Descubre nuestros 4 aparts en Terra María, ubicados en el corazón de Salta para tu comodidad. Cada uno con características únicas. ¡Tu escapada perfecta comienza aquí!
+              </Zoom>
+            </h3>
             <div className='flex md:flex-row flex-wrap justify-center gap-20 mt-10'>
 
               {/* icono casa */}

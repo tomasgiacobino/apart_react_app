@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Modal from './Modal';
 import './Modal.css';
 import styles from '../style';
+import { Fade } from "react-awesome-reveal";
 
 
 const Apart = ({ id, descripcion, p1, p2, titleModal, photosModal, linkAirbnb, linkBooking, linkWpp }) => {
@@ -27,7 +28,10 @@ const Apart = ({ id, descripcion, p1, p2, titleModal, photosModal, linkAirbnb, l
 
 
         <h4 className={`${styles.paragraph} mt-5`}>
+          <Fade>
           {descripcion}
+
+          </Fade>
         </h4>
 
 
