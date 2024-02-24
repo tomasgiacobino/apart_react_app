@@ -16,6 +16,7 @@
 body.active-modal {
     overflow-y:hidden;
     -webkit-overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   
