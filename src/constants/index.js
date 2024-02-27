@@ -68,7 +68,15 @@ export const navLinks = [
   },
   {
     id: "apart1",
-    title: "Aparts",
+    title: "Apartementos",
+  },
+  {
+    id: "apart1",
+    title: "Ubicacion",
+  },    
+  {
+    id: "apart1",
+    title: "Reserva",
   }
 ];
 

@@ -5,6 +5,8 @@ import instagram from "./instagram.svg";
 import logo2sinFondo from "./logo2sinFondo.webp"
 import logoHeroSolo from "./logoHeroSolo.webp";
 import gmail from "./gmail.svg"
+import logoHeroWEBP from "./logoHeroWEBP.webp";
+import logoHeroWEBPGrande from "./logoHeroWEBPGrande.webp"
 
 // IMPORTO LAS IMAGENES CUARTO 1
 import photo1C1 from "./cuarto1/camasofa.webp";
@@ -77,6 +79,8 @@ export{
   logo2sinFondo,
   logoHeroSolo,
   gmail,
+  logoHeroWEBP,
+  logoHeroWEBPGrande,
 
   // fotos cuarto 1
   photo1C1,
