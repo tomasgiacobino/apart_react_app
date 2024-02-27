@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { close, logo2sinFondo, menu } from '../assets';
+import { close, menu } from '../assets';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
@@ -8,16 +8,14 @@ const Navbar = () => {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logo2sinFondo} alt="logoTerraMaria"
-        className='w-[170px] h-[34px]:'></img>
 
-      <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+      <ul className='list-none sm:flex hidden justify-center items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer 
+            className={`font-poppins font-semibold cursor-pointer 
               text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}
-              text-white`}>
+              text-[#8B5E3B]`}>
             <a href={`#${nav.id}`}>
               {nav.title}
             </a>
