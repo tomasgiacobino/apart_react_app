@@ -1,6 +1,5 @@
 import styles from './style'
-import { Navbar, Hero, Apart, Footer } from './components';
-import Ubicacion from './components';
+import { Navbar, Hero, Apart, Ub , Footer } from './components';
 
 import { apartamentos } from "./constants/index.js";
 import { useState, useEffect } from 'react';
@@ -67,7 +66,7 @@ const App = () => {
             </div>
           <div className={`${styles.paddingX} ${styles.flexCenter}  bg-[#33160C]` }>
             <div className={`${styles.boxWidth}`}>
-            <Ubicacion/>
+            <Ub/>
             </div>
           </div>
 

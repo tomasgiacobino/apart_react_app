@@ -1,6 +1,6 @@
 import styles from '../style';
 
-const Ubicacion = () => {
+const Ub = () => {
     return (
         <section id='ubicacion' className={`flex
                 flex-col text-center ${styles.paddingY} bg-[#33160C] h-500 text-white font-poppins`}>
@@ -27,4 +27,4 @@ const Ubicacion = () => {
     )
 }
 
-export default Ubicacion
+export default Ub
