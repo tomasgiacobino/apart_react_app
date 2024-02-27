@@ -3,12 +3,16 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./Modal.css";
 import styles from "../style";
+import "./apart.css";
 import { Fade } from "react-awesome-reveal";
 // Import Swiper styles
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import "./apart.css";
+import 'swiper/css/scrollbar';
+import 'swiper/css/navigation';
+
 
 const Apart = ({
   id,
@@ -37,17 +41,20 @@ const Apart = ({
         style={{ paddingLeft: 0, marginLeft: 0, overflow: "auto" }}
       >
 
-        <div id="nombreApartMobile" className="md:hidden block">
-          Terra María Apart {id}
+        <div id="nombreApartMobile" className="md:hidden block font-poppins text-[25px]">
+          {titleModal}
         </div>
         <div className="swipert">
           <Swiper
+            modules={[Navigation, Pagination, A11y]}
             navigation
             pagination={{ clickable: true }}
             spaceBetween={0}
             slidesPerView={1}
             slidesOffsetBefore={0}
             loop
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log('slide change')}
           >
             <SwiperSlide>
               <div className="image__wrapper">
@@ -61,7 +68,7 @@ const Apart = ({
             </SwiperSlide>
           </Swiper>
 
-          <div id="descMobile" className="md:hidden block">
+          <div id="descMobile" className="md:hidden block text-[15px]">
               <div className=""> {descripcion}</div>
           </div>
 
@@ -70,26 +77,24 @@ const Apart = ({
               className="flex md:flex-row flex-col 
                         font-poppins font-semibold 
                         ss:text-[40px] text-[30px]
-                       text-black justify-center items-center"
+                       text-[#33160C] justify-center items-center"
             >
-              Terra María 
-              Apart {id}
+              {titleModal}
             </h2>
             <Fade>
-              {" "}
-              <div className="fade-font">{descripcion}</div>
+              <div className="fade-font text-[20x] text-[#33160C]">{descripcion}</div>
             </Fade>
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center text-[#33160C]">
           <h3 className="uppercase font-poppins font-semibold md:text-[40px] text-[28px] pb-8 pt-8">Reservas</h3>
 
           <p className="pb-8 font-poppins font-medium md:text-[30px] text-[20px]">Podes realizar tus reservas por los siguientes medios:</p>
 
           <div className="flex md:flex-row flex-col md:mt-8 mt-0  md:gap-0 gap-8 w-full justify-around md:text-[30px] text-[20px]">
           <a target="_blank" href={linkAirbnb}>
-            <button className="bg-black text-white border-solid border-2 rounded-[12px] p-2">Airbnb</button>
+            <button className="bg-[#33160C] text-white border-solid border-2 rounded-[12px] p-3">Airbnb</button>
             </a>  
 
             <a target="_blank" href={linkBooking}>
