@@ -62,8 +62,8 @@ const App = () => {
                   titleModal={apartamento.titleModal}
                 />
               ))}
-          </div>
             </div>
+          </div>
           <div className={`${styles.paddingX} ${styles.flexCenter}  bg-[#33160C]` }>
             <div className={`${styles.boxWidth}`}>
             <Ub/>
