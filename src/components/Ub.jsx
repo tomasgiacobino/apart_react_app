@@ -16,7 +16,7 @@ const Ub = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col'>
+                <div className='flex flex-col md:pt-0 pt-28'>
                     <h3>Descripcion</h3>
                     <p>/</p>
                     <h4>Ubicacion</h4>
