@@ -2,7 +2,7 @@ import styles from '../style';
 import { logoHeroWEBPGrande, instagram} from '../assets';
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY}  `}>
+  <section id='contacto' className={`${styles.flexCenter} ${styles.paddingY}  `}>
 
       <div className={`${styles.flexStart} md:flex-row flex-col justify-evenly w-full items-center`}>
         <img src={logoHeroWEBPGrande} alt="logoTerraMaria" className='w-[266px] h-[72px] object-contain' />
