@@ -1,4 +1,4 @@
-import { instagram, gmail } from "../assets";
+import { instagram } from "../assets";
 
 import {
   photo1C1,
@@ -71,12 +71,12 @@ export const navLinks = [
     title: "Apartementos",
   },
   {
-    id: "apart1",
+    id: "ubicacion",
     title: "Ubicacion",
   },    
   {
-    id: "apart1",
-    title: "Reserva",
+    id: "contacto",
+    title: "Contacto",
   }
 ];
 

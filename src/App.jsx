@@ -30,7 +30,7 @@ const App = () => {
         </div>
 
         :
-        <div className="bg-[#D6D6D6] w-full overflow-hidden">
+        <div className="bg-[#D6D6D6] font-primary w-full overflow-hidden">
 
 
 
