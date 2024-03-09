@@ -21,6 +21,7 @@ import photo9C1 from "./cuarto1/bañolejos.webp";
 import photo10C1 from "./cuarto1/baño.webp";
 import photo11C1 from "./cuarto1/baño1.webp";
 import photo12C1 from "./cuarto1/baño2.webp";
+import photo13C1 from "./cuarto1/cama.webp";
 
 // IMPORTO LAS IMAGENES DEL CUARTO 2
 import photo1C2 from "./cuarto2/cama1.webp";
@@ -95,6 +96,7 @@ export{
   photo10C1,
   photo11C1,
   photo12C1,
+  photo13C1,
 
 // fotos cuarto 2
   photo1C2,

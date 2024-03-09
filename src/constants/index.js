@@ -33,7 +33,7 @@ import {
 
 import {
   photo1C3,
-  photo2C3,
+  // photo2C3,
   photo3C3,
   photo4C3,
   photo5C3,
@@ -95,8 +95,9 @@ export const apartamentos = [
       "con un dormitorio, un baño, una cama doble y un sofá cama. Además, cuenta con una zona de trabajo y ofrece servicios" +
       "como wifi, aire acondicionado, heladera, TV de 34 pulgadas y secador de pelo. Se permiten mascotas.",
     photos: {
-      p1: photo1C1,
-      p2: photo2C1,
+      p1: photo2C1,
+      p2: photo1C1,
+      p3: photo9C1,
     },
     linkAirbnb: "https://www.airbnb.com.ar/rooms/744938814968353170?_set_bev_on_new_domain=1681475889_ZTFkMzI0OWE3Mjdi&source_impression_id=p3_1708386216_5I1XBeU5ETcYYSDC",
     linkBooking: "https://www.booking.com/hotel/ar/el-balcon-de-la-plaza.en-gb.html?aid=311984&label=el-balcon-de-la-plaza-9qTs5WBCyJBQH3hqTrvZlwS541095063578%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-78173750766%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YboIMJYQAPicrzwdxpGM5o8&sid=4aacf73a14ef2d58f6129d73a40c1aae&dest_id=-1011490;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1708386824;srpvid=f25ca80236b90242;type=total;ucfs=1&#hotelTmpl",
@@ -124,6 +125,7 @@ export const apartamentos = [
     photos: {
       p1: photo1C2,
       p2: photo2C2,
+      p3: photo13C2,
     },
     linkAirbnb: "https://www.airbnb.com.ar/rooms/816062808879160555?_set_bev_on_new_domain=1681475889_ZTFkMzI0OWE3Mjdi&source_impression_id=p3_1708396182_TorkPmKdhBMHU57Z",
     linkBooking: "https://www.booking.com/hotel/ar/el-balcon-de-la-plaza.en-gb.html?aid=311984&label=el-balcon-de-la-plaza-9qTs5WBCyJBQH3hqTrvZlwS541095063578%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-78173750766%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YboIMJYQAPicrzwdxpGM5o8&sid=4aacf73a14ef2d58f6129d73a40c1aae&dest_id=-1011490;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1708386824;srpvid=f25ca80236b90242;type=total;ucfs=1&#hotelTmpl",
@@ -150,7 +152,8 @@ export const apartamentos = [
       "Además, cuenta con servicios como wifi, aire acondicionado, televisor y secador de pelo.",
     photos: {
       p1: photo1C3,
-      p2: photo2C3,
+      p2: photo9C3,
+      p3: photo8C3,
     },
     linkAirbnb: "https://www.airbnb.com.ar/rooms/745007841653857708?_set_bev_on_new_domain=1681475889_ZTFkMzI0OWE3Mjdi&source_impression_id=p3_1708396527_0GNFlDQB9%2B%2FqZKoy",
     linkBooking: "https://www.booking.com/hotel/ar/el-balcon-de-la-plaza.en-gb.html?aid=311984&label=el-balcon-de-la-plaza-9qTs5WBCyJBQH3hqTrvZlwS541095063578%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-78173750766%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YboIMJYQAPicrzwdxpGM5o8&sid=4aacf73a14ef2d58f6129d73a40c1aae&dest_id=-1011490;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1708386824;srpvid=f25ca80236b90242;type=total;ucfs=1&#hotelTmpl",
@@ -178,6 +181,7 @@ export const apartamentos = [
     photos: {
       p1: photo1C4,
       p2: photo2C4,
+      p3: photo11C4,
     },
     linkAirbnb: "https://www.airbnb.com.ar/rooms/819352501400878741?_set_bev_on_new_domain=1681475889_ZTFkMzI0OWE3Mjdi&source_impression_id=p3_1707437984_kGXVAxguzRRYcufT",
     linkBooking: "https://www.booking.com/hotel/ar/el-balcon-de-la-plaza.en-gb.html?aid=311984&label=el-balcon-de-la-plaza-9qTs5WBCyJBQH3hqTrvZlwS541095063578%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-78173750766%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YboIMJYQAPicrzwdxpGM5o8&sid=4aacf73a14ef2d58f6129d73a40c1aae&dest_id=-1011490;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1708386824;srpvid=f25ca80236b90242;type=total;ucfs=1&#hotelTmpl",

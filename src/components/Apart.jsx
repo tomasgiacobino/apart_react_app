@@ -17,6 +17,7 @@ const Apart = ({
   descripcion,
   p1,
   p2,
+  p3,
   titleModal,
   linkAirbnb,
   linkBooking,
@@ -38,9 +39,9 @@ const Apart = ({
         style={{ paddingLeft: 0, marginLeft: 0, overflow: "auto" }}
       >
 
-        <div id="nombreApartMobile" className="md:hidden block mb-6 font-light text-[35px]">
-          {titleModal}
-        </div>
+          <div id="nombreApartMobile" className="md:hidden block mb-6 font-light text-[35px]">
+            {titleModal}
+          </div>
         <div className="swipert">
           <Swiper
             modules={[Navigation, Pagination, A11y]}
@@ -63,10 +64,15 @@ const Apart = ({
                 <img src={p2} alt="Imagen 2" />
               </div>
             </SwiperSlide>
+            <SwiperSlide>
+              <div className="image__wrapper">
+                <img src={p3} alt="Imagen 3" />
+              </div>
+            </SwiperSlide>
           </Swiper>
 
           <div id="descMobile" className="md:hidden font-light block text-[18px] mt-6 border-solid border-1 rounded-[10px] p-3 bg_descriptionMobile ">
-              <div className=""> {descripcion}</div>
+            <div className=""> {descripcion}</div>
           </div>
 
           <div id="descNoMobile" className="description font-light mt-28 mr-12 text-center top-0 right-0 z-[1] md:block hidden">
@@ -85,23 +91,30 @@ const Apart = ({
         </div>
 
         <div className="flex flex-col justify-center items-center text-[#33160C]">
-          <h3 className="uppercase font-semilight md:text-[40px] text-[30px] pb-8 pt-8">Reservas</h3>
 
-          <p className="pb-8 font-primary font-light md:text-[30px] text-[22px]">Podes realizar tus reservas por los siguientes medios:</p>
+          <p className="pb-2 font-primary font-light md:text-[34px] text-[22px] pt-12">Consultá disponibilidad para tus reservas:</p>
 
-          <div className="flex md:flex-row flex-col md:mt-8 mt-0  md:gap-0 gap-8 w-full justify-around md:text-[30px] text-[20px]">
-          <a target="_blank" href={linkAirbnb}>
-            <button className="bg-[#33160C] text-white font-extralight border-solid border-2 rounded-[12px] p-3">Airbnb</button>
-            </a>  
+          <div className="flex md:flex-row flex-col md:mt-8 mt-0 md:mb-8  md:gap-0 gap-8 w-full justify-around items-center md:text-[30px] text-[20px]">
 
-            <a target="_blank" href={linkBooking}>
-            <button className="font-light bg-[#33160C] text-white font-extralight border-solid border-2 rounded-[12px] p-3" >Booking</button>
-            </a>
-            
+
+            <div className="transform hover:scale-75 transition duration-300 md:w-36 w-28 md:h-20 h-14">
+              <a target="_blank" href={linkAirbnb}>
+                <button className= "bg-black text-white font-extralight w-full h-full border-slate-950 border-solid border-4 rounded-[25px] hover:bg-black hover:text-white hover:border-slate-50">
+                   Airbnb
+                </button>
+              </a>
+            </div>
+
+            <div className="transform hover:scale-75 transition duration-300 md:w-36 w-28 md:h-20 h-14">
+              <a target="_blank" href={linkBooking}>
+                <button className="md:w-36 w-28 md:h-20 h-14 text-black font-extralight border-slate-950 border-solid border-4 rounded-[25px] p-3" >Booking</button>
+              </a>
+            </div>
+
             <a target="_blank" href={linkWpp}>
-            <button className="font-light bg-[#33160C] text-white font-extralight border-solid border-2 rounded-[12px] p-3" >Whatsapp</button>
+              <button className="md:w-36 w-28 md:h-20 h-14  text-black font-extralight border-solid border-4 rounded-[12px] p-3" >Whatsapp</button>
             </a>
-          
+
           </div>
         </div>
       </div>
