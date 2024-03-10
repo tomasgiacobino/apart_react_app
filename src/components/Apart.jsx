@@ -97,23 +97,22 @@ const Apart = ({
           <div className="flex md:flex-row flex-col md:mt-8 mt-0 md:mb-8  md:gap-0 gap-8 w-full justify-around items-center md:text-[30px] text-[20px]">
 
 
-            <div className="transform hover:scale-75 transition duration-300 md:w-36 w-28 md:h-20 h-14">
+          <div className="md:transform md:hover:scale-75 md:transition md:duration-300 md:w-36 w-28 md:h-20 h-14">
               <a target="_blank" href={linkAirbnb}>
-                <button className= "bg-black text-white font-extralight w-full h-full border-slate-950 border-solid border-4 rounded-[25px] hover:bg-black hover:text-white hover:border-slate-50">
-                   Airbnb
-                </button>
+                <button className="md:w-36 w-28 md:h-20 h-14 text-black font-extralight border-slate-950 border-solid border-4 rounded-[25px] p-3" >Airbnb</button>
               </a>
             </div>
-
-            <div className="transform hover:scale-75 transition duration-300 md:w-36 w-28 md:h-20 h-14">
+            <div className="md:transform md:hover:scale-75 md:transition md:duration-300 md:w-36 w-28 md:h-20 h-14">
               <a target="_blank" href={linkBooking}>
                 <button className="md:w-36 w-28 md:h-20 h-14 text-black font-extralight border-slate-950 border-solid border-4 rounded-[25px] p-3" >Booking</button>
               </a>
             </div>
 
-            <a target="_blank" href={linkWpp}>
-              <button className="md:w-36 w-28 md:h-20 h-14  text-black font-extralight border-solid border-4 rounded-[12px] p-3" >Whatsapp</button>
-            </a>
+            <div className="md:transform md:hover:scale-75 md:transition md:duration-300 md:w-36 w-28 md:h-20 h-14">
+              <a target="_blank" href={linkWpp}>
+                <button className="md:w-36 w-28 md:h-20 h-14 text-black font-extralight border-slate-950 border-solid border-4 rounded-[25px] p-3" >Whatsapp</button>
+              </a>
+            </div>
 
           </div>
         </div>

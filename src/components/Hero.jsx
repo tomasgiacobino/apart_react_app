@@ -1,6 +1,6 @@
 import styles from '../style';
 import {logoHeroWEBPGrande} from '../assets';
-import { Zoom } from 'react-awesome-reveal';
+// import { Zoom } from 'react-awesome-reveal';
 
 
 const Hero = () => (
@@ -14,18 +14,18 @@ const Hero = () => (
       <div className='flex flex-col justify-between
        items-center w-full text-center'>     
         <div className='mb-9'>
-        <img src={logoHeroWEBPGrande} alt="logoHero" />
+        <img className='md:h-[450px]' src={logoHeroWEBPGrande} alt="logoHero" />
         </div>
 
-        <div className='flex md:flex-row flex-col items-center gap-5 w-[80%]'>
-          <div className='flex flex-col items-center'>
-            <h3
+        {/* <div className='flex md:flex-row flex-col items-center gap-5 w-[100%]'> */}
+          {/* <div className='flex flex-col items-center'> */}
+            {/* <h3
             className={`${styles.paragraph}`}>
               <Zoom>
                   Descubre nuestros 4 aparts en Terra María, ubicados en el corazón de Salta para tu comodidad. Cada uno con características únicas. ¡Tu escapada perfecta comienza aquí!
               </Zoom>
-            </h3>
-            <div className='flex md:flex-row flex-wrap justify-center gap-20 mt-10'>
+            </h3> */}
+            <div className='flex md:flex-row flex-wrap justify-center gap-20'>
 
               {/* icono casa */}
                   <svg className='w-12 h-12' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="House-2--Streamline-Ultimate" ><desc>{"House 2 Streamline Icon: https://streamlinehq.com"}</desc><path d="m23.71 11.29 -11 -11a1 1 0 0 0 -1.42 0l-11 11a1 1 0 0 0 -0.21 1.09A1 1 0 0 0 1 13h1.25a0.25 0.25 0 0 1 0.25 0.25V23a1 1 0 0 0 1 1h5.75a0.25 0.25 0 0 0 0.25 -0.25V19a2.5 2.5 0 0 1 5 0v4.75a0.25 0.25 0 0 0 0.25 0.25h5.75a1 1 0 0 0 1 -1v-9.75a0.25 0.25 0 0 1 0.25 -0.25H23a1 1 0 0 0 0.92 -0.62 1 1 0 0 0 -0.21 -1.09Z" fill="#000000" strokeWidth={1} /></svg>
@@ -38,10 +38,10 @@ const Hero = () => (
                   <path d="M24 12a1 1 0 0 0 -1 -1h-2a0.25 0.25 0 0 1 -0.23 -0.15 0.26 0.26 0 0 1 0.05 -0.28l1.37 -1.36a1 1 0 1 0 -1.42 -1.42l-2.91 2.92a1 1 0 0 1 -0.71 0.29h-0.4a0.5 0.5 0 0 1 -0.48 -0.35 4.66 4.66 0 0 0 -0.3 -0.73 0.5 0.5 0 0 1 0.09-0.59l4.76 -4.75a1 1 0 1 0 -1.42 -1.42l-4.73 4.76a0.5 0.5 0 0 1 -0.59 0.09 4.66 4.66 0 0 0 -0.73 -0.3 0.5 0.5 0 0 1 -0.35 -0.48v-0.4a1 1 0 0 1 0.29 -0.71l2.92 -2.91a1 1 0 1 0 -1.42 -1.42l-1.36 1.37a0.26 0.26 0 0 1 -0.28 0A0.25 0.25 0 0 1 13 3V1a1 1 0 0 0 -2 0v2a0.25 0.25 0 0 1 -0.15 0.23 0.26 0.26 0 0 1 -0.28 0L9.21 1.79a1 1 0 1 0 -1.42 1.42l2.92 2.91a1 1 0 0 1 0.29 0.71v0.4a0.5 0.5 0 0 1 -0.35 0.48 4.66 4.66 0 0 0 -0.73 0.3 0.5 0.5 0 0 1 -0.59 -0.09L4.58 3.16a1 1 0 0 0 -1.42 1.42l4.76 4.75a0.5 0.5 0 0 1 0.08 0.59 4.66 4.66 0 0 0 -0.3 0.73 0.5 0.5 0 0 1 -0.48 0.35h-0.4a1 1 0 0 1 -0.71 -0.29l-2.9 -2.92a1 1 0 1 0 -1.42 1.42l1.37 1.36a0.26 0.26 0 0 1 0 0.28A0.25 0.25 0 0 1 3 11H1a1 1 0 0 0 0 2h2a0.25 0.25 0 0 1 0.23 0.15 0.26 0.26 0 0 1 0 0.28l-1.44 1.36a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l2.91 -2.92a1 1 0 0 1 0.71 -0.29h0.4a0.5 0.5 0 0 1 0.48 0.35 4.66 4.66 0 0 0 0.3 0.73 0.5 0.5 0 0 1 -0.09 0.59l-4.76 4.75a1 1 0 0 0 0 1.42 1 1 0 0 0 0.71 0.29 1 1 0 0 0 0.71 -0.29l4.75 -4.76a0.5 0.5 0 0 1 0.59 -0.08 4.66 4.66 0 0 0 0.73 0.3 0.5 0.5 0 0 1 0.35 0.48v0.4a1 1 0 0 1 -0.29 0.71l-2.92 2.9a1 1 0 1 0 1.42 1.42l1.36 -1.37a0.26 0.26 0 0 1 0.28 -0.05 0.25 0.25 0 0 1 0.15 0.21v2a1 1 0 0 0 2 0v-2a0.25 0.25 0 0 1 0.15 -0.23 0.26 0.26 0 0 1 0.28 0.05l1.36 1.37a1 1 0 0 0 1.42 0 1 1 0 0 0 0 -1.42l-2.92 -2.91a1 1 0 0 1 -0.29 -0.71v-0.4a0.5 0.5 0 0 1 0.35 -0.48 4.66 4.66 0 0 0 0.73 -0.3 0.5 0.5 0 0 1 0.59 0.09l4.75 4.76a1 1 0 0 0 0.71 0.29 1 1 0 0 0 0.71 -0.29 1 1 0 0 0 0 -1.42l-4.76 -4.75a0.5 0.5 0 0 1 -0.09 -0.59 4.66 4.66 0 0 0 0.3 -0.73 0.5 0.5 0 0 1 0.48 -0.35h0.4a1 1 0 0 1 0.71 0.29l2.91 2.92a1 1 0 0 0 1.42 0 1 1 0 0 0 0 -1.42l-1.37 -1.36a0.26 0.26 0 0 1 -0.05 -0.28A0.25 0.25 0 0 1 21 13h2a1 1 0 0 0 1 -1Zm-12 2.5a2.5 2.5 0 1 1 2.5 -2.5 2.5 2.5 0 0 1 -2.5 2.5Z" fill="#000000" strokeWidth={1} /></svg>
                  {/* icono cama */}
                  <svg className='w-12 h-12' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="Hotel-Double-Bed-2--Streamline-Ultimate" ><g id="Hotel-Double-Bed-2--Streamline-Ultimate"><path d="M23.23 15.5a0.53 0.53 0 0 0 0.38 -0.18 0.56 0.56 0 0 0 0.11 -0.41l-1.49 -8a0.5 0.5 0 0 0 -0.49 -0.41H2.26a0.5 0.5 0 0 0 -0.49 0.41l-1.49 8a0.56 0.56 0 0 0 0.11 0.41 0.53 0.53 0 0 0 0.38 0.18Z" fill="#000000" strokeWidth={1} /><path d="M0.5 16.5a0.5 0.5 0 0 0 -0.5 0.5v3.25a2.25 2.25 0 0 0 2.25 2.25 0.25 0.25 0 0 1 0.25 0.25v0.5a0.75 0.75 0 0 0 1.5 0V23a0.5 0.5 0 0 1 0.5 -0.5h15a0.5 0.5 0 0 1 0.5 0.5v0.25a0.75 0.75 0 0 0 1.5 0v-0.5a0.25 0.25 0 0 1 0.25 -0.25A2.25 2.25 0 0 0 24 20.25V17a0.5 0.5 0 0 0 -0.5 -0.5Z" fill="#000000" strokeWidth={1} /><path d="M22 2.25A2.25 2.25 0 0 0 19.75 0H4.25A2.25 2.25 0 0 0 2 2.25V5a0.5 0.5 0 0 0 0.5 0.5h1.58a0.5 0.5 0 0 0 0.49 -0.42l0.36 -2.16a0.5 0.5 0 0 1 0.49 -0.42H10a0.5 0.5 0 0 1 0.5 0.5v2a0.5 0.5 0 0 0 0.5 0.5h2a0.5 0.5 0 0 0 0.5 -0.5V3a0.5 0.5 0 0 1 0.5 -0.5h4.58a0.5 0.5 0 0 1 0.49 0.42l0.36 2.16a0.5 0.5 0 0 0 0.49 0.42h1.58A0.5 0.5 0 0 0 22 5Z" fill="#000000" strokeWidth={1} /></g></svg>
-            </div>
+            {/* </div> */}
           </div>
 
-        </div>
+        {/* </div> */}
 
       </div>
       

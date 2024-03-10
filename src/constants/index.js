@@ -61,15 +61,21 @@ import {
   photo11C4,
 } from "../assets/index";
 
+import {
+  catedral,
+  catedralNoche,
+  calle,
+} from "../assets/index";
+
 export const navLinks = [
-  {
-    id: "home",
-    title: "Inicio",
-  },
   {
     id: "apart1",
     title: "Apartementos",
   },
+  {
+    id: "ubicacion",
+    title: "Galeria",
+  },   
   {
     id: "ubicacion",
     title: "Ubicacion",
@@ -79,6 +85,24 @@ export const navLinks = [
     title: "Contacto",
   }
 ];
+
+export const imgGaleria =[
+  {
+    id: 1,
+    alt: "Foto Galeria",
+    img: catedral,
+  },
+  {
+    id:2,
+    alt: "Foto Galeria",
+    img: catedralNoche,
+  },
+  {
+    id:3,
+    alt: "Foto Galeria",
+    img: calle
+  }
+]
 
 export const socialMedia = [
   {

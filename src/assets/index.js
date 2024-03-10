@@ -3,10 +3,16 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import instagram from "./instagram.svg";
 import logo2sinFondo from "./logo2sinFondo.webp"
-import logoHeroSolo from "./logoHeroSolo.webp";
-import gmail from "./gmail.svg"
 import logoHeroWEBP from "./logoHeroWEBP.webp";
-import logoHeroWEBPGrande from "./logoHeroWEBPGrande.webp"
+import logoHeroWEBPGrande from "./LogoHeroWEBPGrande.png";
+
+
+
+import catedral from "./galeria/catedral.jpg";
+import catedralNoche from "./galeria/catedralNoche.jpeg";
+import calle from "./galeria/calle.jpeg";
+
+
 
 // IMPORTO LAS IMAGENES CUARTO 1
 import photo1C1 from "./cuarto1/camasofa.webp";
@@ -46,7 +52,7 @@ import photo4C3 from "./cuarto3/tele.webp";
 import photo5C3 from "./cuarto3/detalle.webp";
 import photo6C3 from "./cuarto3/espejo.webp";
 import photo7C3 from "./cuarto3/lampara.webp";
-import photo8C3 from "./cuarto3/baño.webp";
+import photo8C3 from "./cuarto3/bañoMenosCalidad.webp";
 import photo9C3 from "./cuarto3/patio.webp";
 import photo10C3 from "./cuarto3/patio1.webp";
 import photo11C3 from "./cuarto3/ventana.webp";
@@ -78,8 +84,6 @@ export{
   close,
   instagram,
   logo2sinFondo,
-  logoHeroSolo,
-  gmail,
   logoHeroWEBP,
   logoHeroWEBPGrande,
 
@@ -141,4 +145,9 @@ export{
   photo10C4,
   photo11C4,
 
+
+  //fotos galeria
+  catedral,
+  catedralNoche,
+  calle,
 };
