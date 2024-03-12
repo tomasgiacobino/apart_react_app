@@ -65,6 +65,9 @@ import {
   catedral,
   catedralNoche,
   calle,
+  teleferico,
+  lluvia,
+  plaza,
 } from "../assets/index";
 
 export const navLinks = [
@@ -73,7 +76,7 @@ export const navLinks = [
     title: "Apartementos",
   },
   {
-    id: "ubicacion",
+    id: "galeria",
     title: "Galeria",
   },   
   {
@@ -100,8 +103,24 @@ export const imgGaleria =[
   {
     id:3,
     alt: "Foto Galeria",
-    img: calle
-  }
+    img: calle,
+  },
+  {
+    id:4,
+    alt: "Foto Galeria",
+    img: teleferico,
+  },
+  {
+    id:5,
+    alt: "Foto Galeria",
+    img: lluvia,
+  },
+  {
+    id:6,
+    alt: "Foto Galeria",
+    img: plaza,
+  },
+
 ]
 
 export const socialMedia = [

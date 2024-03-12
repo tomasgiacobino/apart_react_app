@@ -8,3 +8,8 @@
     background-position: center;
     height: 70vh;
 }
+
+.transparentBg{
+    background-color: rgba(225,225,225,0.4);
+    padding: 10px;
+}
