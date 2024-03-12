@@ -30,6 +30,8 @@ import photo10C1 from "./cuarto1/baño.webp";
 import photo11C1 from "./cuarto1/baño1.webp";
 import photo12C1 from "./cuarto1/baño2.webp";
 import photo13C1 from "./cuarto1/cama.webp";
+import photo14C1 from "./cuarto1/bañoa1.webp";
+import photo15C1 from "./cuarto1/bañoa2.webp";
 
 // IMPORTO LAS IMAGENES DEL CUARTO 2
 import photo1C2 from "./cuarto2/cama1.webp";
@@ -45,6 +47,8 @@ import photo10C2 from "./cuarto2/tele.webp";
 import photo11C2 from "./cuarto2/ropero.webp";
 import photo12C2 from "./cuarto2/ducha.webp";
 import photo13C2 from "./cuarto2/baño.webp";
+import photo14C2 from "./cuarto2/bañoa1.webp";
+import photo15C2 from "./cuarto2/bañoa2.webp";
 
 // IMPORTO LAS IMAGENES DEL CUARTO 3
 import photo1C3 from "./cuarto3/camas1.webp";
@@ -60,6 +64,8 @@ import photo10C3 from "./cuarto3/patio1.webp";
 import photo11C3 from "./cuarto3/ventana.webp";
 import photo12C3 from "./cuarto3/ventana2.webp";
 import photo13C3 from "./cuarto3/camas.webp";
+import photo14C3 from "./cuarto3/bañoa1.webp";
+import photo15C3 from "./cuarto3/bañoa2.webp";
 
 // IMPORTO LAS IMAGENES DEL CUARTO 4
 import photo1C4 from "./cuarto4/cama1.webp";
@@ -73,6 +79,8 @@ import photo8C4 from "./cuarto4/cama2.webp";
 import photo9C4 from "./cuarto4/cuarto3.webp";
 import photo10C4 from "./cuarto4/baño.webp";
 import photo11C4 from "./cuarto4/baño1.webp";
+import photo12C4 from "./cuarto4/bañoa1.webp";
+import photo13C4 from "./cuarto4/bañoa2.webp";
 
 
 
@@ -103,6 +111,8 @@ export{
   photo11C1,
   photo12C1,
   photo13C1,
+  photo14C1,
+  photo15C1,
 
 // fotos cuarto 2
   photo1C2,
@@ -118,6 +128,8 @@ export{
   photo11C2,
   photo12C2,
   photo13C2,
+  photo14C2,
+  photo15C2,
 
 // fotos cuarto 3
   photo1C3,
@@ -133,6 +145,8 @@ export{
   photo11C3,
   photo12C3,
   photo13C3,
+  photo14C3,
+  photo15C3,
 
   // fotos cuarto 4
   photo1C4,
@@ -146,6 +160,8 @@ export{
   photo9C4,
   photo10C4,
   photo11C4,
+  photo12C4,
+  photo13C4,
 
 
   //fotos galeria

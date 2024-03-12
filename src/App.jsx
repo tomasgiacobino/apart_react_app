@@ -59,6 +59,7 @@ const App = () => {
                   p1={apartamento.photos.p1}
                   p2={apartamento.photos.p2}
                   p3={apartamento.photos.p3}
+                  p4={apartamento.photos.p4}
                   linkAirbnb={apartamento.linkAirbnb}
                   linkBooking={apartamento.linkBooking}
                   linkWpp={apartamento.linkWpp}
