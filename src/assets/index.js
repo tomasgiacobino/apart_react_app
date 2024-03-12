@@ -7,10 +7,12 @@ import logoHeroWEBP from "./logoHeroWEBP.webp";
 import logoHeroWEBPGrande from "./LogoHeroWEBPGrande.png";
 
 
-
-import catedral from "./galeria/catedral.jpg";
-import catedralNoche from "./galeria/catedralNoche.jpeg";
-import calle from "./galeria/calle.jpeg";
+import catedral from "./galeria/catedralwebp.webp";
+import catedralNoche from "./galeria/catedralNochewebp.webp";
+import calle from "./galeria/callewebp.webp";
+import lluvia from "./galeria/lluvia.webp";
+import teleferico from "./galeria/teleferico.webp";
+import plaza from "./galeria/plaza.webp";
 
 
 
@@ -150,4 +152,7 @@ export{
   catedral,
   catedralNoche,
   calle,
+  plaza,
+  teleferico,
+  lluvia,
 };
