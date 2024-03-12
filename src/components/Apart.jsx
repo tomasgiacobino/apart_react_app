@@ -18,6 +18,7 @@ const Apart = ({
   p1,
   p2,
   p3,
+  p4,
   titleModal,
   linkAirbnb,
   linkBooking,
@@ -56,17 +57,22 @@ const Apart = ({
           >
             <SwiperSlide>
               <div className="image__wrapper">
-                <img src={p1} alt="Imagen 1" />
+                <img src={p1} alt="Imagen descriptiva 1" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="image__wrapper">
-                <img src={p2} alt="Imagen 2" />
+                <img src={p2} alt="Imagen descriptiva 2" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="image__wrapper">
-                <img src={p3} alt="Imagen 3" />
+                <img src={p3} alt="Imagen descriptiva 3" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="image__wrapper">
+                <img src={p4} alt="Imagen descriptiva 4" />
               </div>
             </SwiperSlide>
           </Swiper>
