@@ -11,7 +11,7 @@ const DescriptionHero = () => {
                   Descubre nuestros 4 aparts en Terra María, ubicados en el corazón de Salta para tu comodidad. Cada uno con características únicas. ¡Tu escapada perfecta comienza aquí!
               </Zoom>
             </h3>
-            <span className='mt-72'></span>
+            <span className='md:mt-72'></span>
     </section>
   )
 }
