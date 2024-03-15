@@ -153,7 +153,7 @@ export const apartamentos = [
     },
     linkAirbnb: "https://www.airbnb.com.ar/rooms/744938814968353170?_set_bev_on_new_domain=1681475889_ZTFkMzI0OWE3Mjdi&source_impression_id=p3_1708386216_5I1XBeU5ETcYYSDC",
     linkBooking: "https://www.booking.com/hotel/ar/el-balcon-de-la-plaza.en-gb.html?aid=311984&label=el-balcon-de-la-plaza-9qTs5WBCyJBQH3hqTrvZlwS541095063578%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-78173750766%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YboIMJYQAPicrzwdxpGM5o8&sid=4aacf73a14ef2d58f6129d73a40c1aae&dest_id=-1011490;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1708386824;srpvid=f25ca80236b90242;type=total;ucfs=1&#hotelTmpl",
-    linkWpp: "https://wa.me/3874069341?text=Hola,%20estoy%20interesado%20en%20el%20Apart%201%20de%20Terra%20Maria%20Apartment",
+    linkWpp: "https://wa.me/3874081373?text=Hola,%20estoy%20interesado%20en%20el%20Apart%201%20de%20Terra%20Maria%20Apartment",
     titleModal: "Terra María Apart 1",
     photosModal: [
       { original: photo3C1, thumbnail: photo3C1 },
@@ -182,7 +182,7 @@ export const apartamentos = [
     },
     linkAirbnb: "https://www.airbnb.com.ar/rooms/816062808879160555?_set_bev_on_new_domain=1681475889_ZTFkMzI0OWE3Mjdi&source_impression_id=p3_1708396182_TorkPmKdhBMHU57Z",
     linkBooking: "https://www.booking.com/hotel/ar/el-balcon-de-la-plaza.en-gb.html?aid=311984&label=el-balcon-de-la-plaza-9qTs5WBCyJBQH3hqTrvZlwS541095063578%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-78173750766%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YboIMJYQAPicrzwdxpGM5o8&sid=4aacf73a14ef2d58f6129d73a40c1aae&dest_id=-1011490;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1708386824;srpvid=f25ca80236b90242;type=total;ucfs=1&#hotelTmpl",
-    linkWpp: "https://wa.me/3874069341?text=Hola,%20estoy%20interesado%20en%20el%20Apart%202%20de%20Terra%20Maria%20Apartment",
+    linkWpp: "https://wa.me/3874081373?text=Hola,%20estoy%20interesado%20en%20el%20Apart%202%20de%20Terra%20Maria%20Apartment",
     titleModal: "Terra María Apart 2",
     photosModal: [
       { original: photo3C2, thumbnail: photo3C2 },
@@ -205,13 +205,13 @@ export const apartamentos = [
       "Además, cuenta con servicios de wifi, aire acondicionado, pava eléctrica, televisor y secador de pelo.",
     photos: {
       p1: photo1C3,
-      p2: photo9C3,
+      p2: photo4C3,
       p3: photo14C3,
       p4: photo15C3,
     },
     linkAirbnb: "https://www.airbnb.com.ar/rooms/745007841653857708?_set_bev_on_new_domain=1681475889_ZTFkMzI0OWE3Mjdi&source_impression_id=p3_1708396527_0GNFlDQB9%2B%2FqZKoy",
     linkBooking: "https://www.booking.com/hotel/ar/el-balcon-de-la-plaza.en-gb.html?aid=311984&label=el-balcon-de-la-plaza-9qTs5WBCyJBQH3hqTrvZlwS541095063578%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-78173750766%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YboIMJYQAPicrzwdxpGM5o8&sid=4aacf73a14ef2d58f6129d73a40c1aae&dest_id=-1011490;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1708386824;srpvid=f25ca80236b90242;type=total;ucfs=1&#hotelTmpl",
-    linkWpp: "https://wa.me/3874069341?text=Hola,%20estoy%20interesado%20en%20el%20Apart%203%20de%20Terra%20Maria%20Apartment",
+    linkWpp: "https://wa.me/3874081373?text=Hola,%20estoy%20interesado%20en%20el%20Apart%203%20de%20Terra%20Maria%20Apartment",
     titleModal: "Terra María Apart 3",
     photosModal: [
       { original: photo3C3, thumbnail: photo3C3 },
@@ -240,7 +240,7 @@ export const apartamentos = [
     },
     linkAirbnb: "https://www.airbnb.com.ar/rooms/819352501400878741?_set_bev_on_new_domain=1681475889_ZTFkMzI0OWE3Mjdi&source_impression_id=p3_1707437984_kGXVAxguzRRYcufT",
     linkBooking: "https://www.booking.com/hotel/ar/el-balcon-de-la-plaza.en-gb.html?aid=311984&label=el-balcon-de-la-plaza-9qTs5WBCyJBQH3hqTrvZlwS541095063578%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-78173750766%3Alp1000126%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YboIMJYQAPicrzwdxpGM5o8&sid=4aacf73a14ef2d58f6129d73a40c1aae&dest_id=-1011490;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1708386824;srpvid=f25ca80236b90242;type=total;ucfs=1&#hotelTmpl",
-    linkWpp: "https://wa.me/3874069341?text=Hola,%20estoy%20interesado%20en%20el%20Apart%204%20de%20Terra%20Maria%20Apartment",
+    linkWpp: "https://wa.me/3874081373?text=Hola,%20estoy%20interesado%20en%20el%20Apart%204%20de%20Terra%20Maria%20Apartment",
     titleModal: "Terra María Apart 4",
     photosModal: [
       { original: photo3C4, thumbnail: photo3C4 },
