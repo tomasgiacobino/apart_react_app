@@ -144,7 +144,7 @@ export const apartamentos = [
     id: "1",
     desc: "Este apartamento está diseñado para alojar cómodamente a tres huéspedes," +
       "con un dormitorio, un baño, una cama doble y un sofá cama. Además, cuenta con una zona de trabajo y ofrece servicios" +
-      "como wifi, aire acondicionado, heladera, TV de 34 pulgadas y secador de pelo. Se permiten mascotas.",
+      "de wifi, aire acondicionado, pava eléctrica, heladera tipo mini bar, heladera, TV de 34 pulgadas y secador de pelo. Se permiten mascotas.",
     photos: {
       p1: photo2C1,
       p2: photo1C1,
@@ -171,9 +171,9 @@ export const apartamentos = [
   {
     id: "2",
     desc: "Este apartamento está diseñado para alojar cómodamente " +
-      "a tres huéspedes, con un dormitorio que cuenta con dos camas individuales y un baño. Además, " +
-      "ofrece servicios como wifi, aire acondicionado, " +
-      "televisor y secador de pelo. Este apartamento también incluye estacionamiento pago en las instalaciones.",
+      "a tres huéspedes, con un dormitorio que cuenta con una cama queen y un baño; y una antesala con una cama individual. Además, " +
+      "ofrece servicios de wifi, aire acondicionado, pava eléctrica, heladera tipo mini bar, " +
+      "televisor y secador de pelo.",
     photos: {
       p1: photo1C2,
       p2: photo2C2,
@@ -202,7 +202,7 @@ export const apartamentos = [
     id: "3",
     desc: "Este apartamento está diseñado para alojar cómodamente a cuatro huéspedes, " +
       "con un dormitorio que ofrece dos camas dobles, un baño y una zona de trabajo." +
-      "Además, cuenta con servicios como wifi, aire acondicionado, televisor y secador de pelo.",
+      "Además, cuenta con servicios de wifi, aire acondicionado, pava eléctrica, televisor y secador de pelo.",
     photos: {
       p1: photo1C3,
       p2: photo9C3,
@@ -231,7 +231,7 @@ export const apartamentos = [
     id: "4",
     desc: "Este apartamento está diseñado para alojar cómodamente a dos huéspedes, " +
       "con un dormitorio que ofrece una cama doble, un baño y una zona de trabajo." +
-      "Además, cuenta con servicios como wifi, aire acondicionado, televisor y heladera.",
+      "Además, cuenta con servicios de wifi, aire acondicionado, pava eléctrica, televisor y heladera.",
     photos: {
       p1: photo1C4,
       p2: photo2C4,

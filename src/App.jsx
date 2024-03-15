@@ -1,5 +1,5 @@
 import styles from './style'
-import { Navbar, Hero, DescriptionHero , Apart, Ub , Footer, Galery } from './components';
+import { Navbar, Hero, DescriptionHero, Servicios, Apart, Ub, Footer, Galery } from './components';
 
 import { apartamentos } from "./constants/index.js";
 import { useState, useEffect } from 'react';
@@ -19,7 +19,7 @@ const App = () => {
     <div>
 
       {loading ?
-        
+
         <div className=' w-full bg-[#D6D6D6] h-[100vh] flex justify-center items-center text-center'>
           <PuffLoader
             color={'#de8c2e'}
@@ -34,7 +34,7 @@ const App = () => {
 
 
 
-          <div className={`${styles.paddingX} ${styles.flexCenter}` }>
+          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
               <Navbar />
             </div>
@@ -45,9 +45,18 @@ const App = () => {
               <Hero />
             </div>
           </div>
+
+
           <div className='bgDescriptionHero'>
-              <DescriptionHero/>
+            <DescriptionHero />
           </div>
+
+          <div className={`${styles.paddingX} ${styles.flexStart}`} >
+            <div className={`${styles.boxWidth} mb-12 mt-20`} >
+              <Servicios />
+            </div>
+          </div>
+          
 
           <div className={`${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
@@ -67,18 +76,18 @@ const App = () => {
                   titleModal={apartamento.titleModal}
                 />
               ))}
-              <Galery/>
+              <Galery />
             </div>
           </div>
-          <div className={`${styles.paddingX} ${styles.flexCenter}  bg-[#33160C]` }>
+          <div className={`${styles.paddingX} ${styles.flexCenter}  bg-[#33160C]`}>
             <div className={`${styles.boxWidth}`}>
-            <Ub/>
+              <Ub />
             </div>
           </div>
 
-          <div className={`${styles.paddingX} ${styles.flexCenter}`  }>
+          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
-            <Footer/>
+              <Footer />
             </div>
           </div>
 
