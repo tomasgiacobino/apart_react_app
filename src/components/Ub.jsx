@@ -12,7 +12,7 @@ const Ub = () => {
 
                 <div className="md:w-[50%] w-[100%] md:h-[400px] h-[250px] ss:w-[60%] ">
                     <div className="w-[100%] h-[100%]">
-                        <iframe className="w-[100%] h-[100%] border-solid border-2 rounded-[12px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d843.578345941893!2d-65.40601436923932!3d-24.788568054250007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3bd4bc6b6eb%3A0x6d72340b1e7ba947!2sVicente%20L%C3%B3pez%2C%20Salta!5e0!3m2!1ses!2sar!4v1707858712428!5m2!1ses!2sar"></iframe>
+                        <iframe className="w-[100%] h-[100%] border-solid border-2 rounded-[12px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d226.3871230720267!2d-65.40576624634495!3d-24.788810761464788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a2b529432f%3A0x70be0a6ae079996a!2sEspa%C3%B1a%20220%2C%20Salta!5e0!3m2!1ses!2sar!4v1717537842808!5m2!1ses!2sar"></iframe>
                     </div>
                 </div>
 
@@ -37,3 +37,5 @@ const Ub = () => {
 }
 
 export default Ub
+
+
