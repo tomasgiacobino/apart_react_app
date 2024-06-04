@@ -144,7 +144,7 @@ export const apartamentos = [
     id: "1",
     desc: "Este apartamento está diseñado para alojar cómodamente a tres huéspedes," +
       "con un dormitorio, un baño, una cama doble y un sofá cama. Además, cuenta con una zona de trabajo y ofrece servicios" +
-      "de wifi, aire acondicionado, pava eléctrica, heladera tipo mini bar, heladera, TV de 34 pulgadas y secador de pelo. Se permiten mascotas.",
+      "de wifi, aire acondicionado, pava eléctrica, heladera tipo mini bar, TV de 34 pulgadas y secador de pelo. Se permiten mascotas.",
     photos: {
       p1: photo2C1,
       p2: photo1C1,
